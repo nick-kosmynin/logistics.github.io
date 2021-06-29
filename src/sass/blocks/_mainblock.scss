@@ -1,0 +1,88 @@
+.mainblock {
+    height: 970px;
+    background: url('../img/main_photo.jpg');
+    background-position: center;
+    background-size: cover;
+    background: yellow;
+
+    &__tittle {
+        margin: 0;
+        text-align: center;
+        color: #fff;
+        font-size: 65px;
+        text-transform: uppercase;
+        padding-top: 78px;
+    }
+
+    &__submit {
+        color: #fff;
+        display: block;
+        width: 100%;
+        text-align: center;
+        text-align: center;
+        margin-top: 38px;
+        font-size: 32px;
+        text-transform: uppercase;
+    }
+
+    &__subtittle {
+        color: #fff;
+        margin: 0;
+        margin-top: 50px;
+        font-size: 45px;
+        text-align: center;
+    }
+}
+
+.contacts {
+    width: 1475px;
+    max-width: 100%;
+    min-height: 560px;
+    background: #fff;
+    margin: 0 auto;
+
+    &__title {
+        font-size: 38px;
+        text-align: center;
+        padding-top: 110px;
+        color: #fd8c40;
+    }
+
+    &__line {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__form {
+        width: 1351px;
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 90px;
+    }
+
+    &__input {
+        position: relative;
+        width: 237px;
+        height: 70px;
+        margin-right: 32px;
+    }
+}
+
+input {
+    width: 250px;
+    height: 70px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    
+}
+
+input::placeholder {
+    margin-top: 10px;
+}
+
+label {
+    position: absolute;
+    top: -10px;
+    left: 4px;
+}

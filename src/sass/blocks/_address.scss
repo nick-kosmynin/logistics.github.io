@@ -1,0 +1,17 @@
+.address {
+    min-height: 75px;
+    background-color: #121212;
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+
+    &__line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 85px;
+        p{
+            margin: 0;
+        }
+    }
+}

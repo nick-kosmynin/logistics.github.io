@@ -1,0 +1,29 @@
+.request{
+    display: block;
+    min-height: 1000px;
+    background-color:#f8f8f8;
+    padding-top: 330px;
+}
+
+.requestblock{
+    display: flex;
+
+    &__tittle{
+        color: #fd8c40;
+        font-size: 40px;
+    }
+    &__image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.question{
+    margin-left: 150px;
+    padding-top: 70px;
+
+    &__input{
+        width: 410px;
+    }
+}

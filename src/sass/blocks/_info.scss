@@ -1,0 +1,16 @@
+.ihfo{
+    min-height: 820px;
+}
+.infowrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 280px;
+    flex-wrap: wrap;
+
+    &__block{
+        width: 310px;
+    }
+    h1{
+        color:#fd8c40;
+    }
+}

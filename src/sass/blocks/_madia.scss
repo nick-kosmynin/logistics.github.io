@@ -1,0 +1,263 @@
+@media (max-width:1440px) {
+    .contacts__input {
+        width: 180px;
+        margin: 0 auto;
+    }
+
+    input {
+        width: 180px;
+    }
+}
+
+@media (max-width:1417px) {
+    .survey {
+        justify-content: center;
+
+        &__image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        &__block {
+            margin: 0;
+        }
+    }
+}
+
+@media(max-width:1381px) {
+    .experience {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media(max-width:1294px) {
+    .requestblock {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width:1240px) {
+    .btn_learn {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:1025px) {
+    .contacts__line {
+        justify-content: center;
+    }
+
+    .contacts__line {
+        justify-content: center;
+    }
+
+    .contacts__input {
+        height: 80px;
+        width: 120px;
+        margin: 0 auto;
+
+    }
+
+    input {
+        width: 120px;
+    }
+
+    .btn_learn {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+
+}
+
+@media (max-width:970px) {
+    .menu {
+        display: none;
+
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+@media(max-width:800px) {
+    .contacts__line {
+        justify-content: center;
+        width: 1350px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .contacts__input {
+        width: 121px;
+        height: 90px;
+        margin-right: 19px
+    }
+
+    input {
+        width: 125px;
+    }
+
+    .footerblock{
+        flex-wrap: wrap;
+        &__link{
+            font-size: 16px;
+        }
+    }
+
+    .address__line{
+        font-size: 12px;
+    } 
+}
+
+@media(max-width:769px) {
+    .contacts__input {
+        width: 390px;
+        height: 80px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    input {
+        width: 360px;
+    }
+
+    .video {
+        margin-top: 246px;
+    }
+
+    .btn_learn {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:748px) {
+    .experience {
+        &__video {
+            max-width: 100%;
+            max-height: 100%;
+            height: auto;
+        }
+    }
+
+    .status {
+        max-width: 100%;
+
+        &__line {
+            max-width: 100%;
+        }
+    }
+}
+
+@media(max-width:620px) {
+    .infowrapper {
+        justify-content: center;
+        padding-top: 0;
+    }
+
+    .question {
+        margin-left: 0;
+        &__input {
+            width: 100%;
+        }
+    }
+    .btn_question{
+        margin: 0 auto;
+    }
+    .requestblock__tittle{
+        text-align: center;
+    }
+}
+
+@media (max-width:428px) {
+    .upperblock {
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+}
+
+@media(max-width:426px) {
+    .contacts__input {
+        width: 300px;
+        height: 90px;
+        margin: 0 auto;
+    }
+
+    input {
+        width: 300px;
+    }
+
+    .experience {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &__video {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+    .status {
+        max-width: 100%;
+
+        &__line {
+            max-width: 100%;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media(max-width:376px) {
+    .contacts__input {
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    input {
+        width: 250px;
+    }
+
+    .btn_form {
+        margin-top: 20px;
+    }
+
+    .video {
+        margin-top: 256px;
+    }
+
+    .btn_learn {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:325px) {
+    .upperblock__social {
+        margin: 0 auto;
+    }
+
+    .contacts__input {
+        position: relative;
+        width: 237px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .video {
+        margin-top: 316px;
+    }
+
+    .btn_learn {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}

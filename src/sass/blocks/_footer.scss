@@ -1,0 +1,44 @@
+.footer {
+    min-height: 420px;
+    background-color: #212121;
+
+    p {
+        color: white;
+        text-transform: uppercase;
+        margin: 0;
+        padding-top: 155px;
+        padding-bottom: 50px;
+    }
+}
+
+.footerblock {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    min-height: 85px;
+    border-bottom: 1px solid #fff;
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0;
+        height: 85px;
+        align-items: center;
+        padding: 0;
+        width: 760px;
+    }
+
+    &__link {
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+    }
+
+    &__social {
+        width: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

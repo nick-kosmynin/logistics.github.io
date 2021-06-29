@@ -1,0 +1,37 @@
+.testing {
+    display: block;
+    min-height: 855px;
+}
+
+.survey {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__block {
+        margin-left: 190px;
+    }
+
+    &__tittle {
+        padding-top: 200px;
+        padding-bottom: 155px;
+        color: #fd8c40;
+    }
+
+    &__subtittle {
+        display: flex;
+        position: relative;
+        padding-top: 40px;
+
+        p {
+            padding-left: 33px;
+            margin: 0px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.fa-check-circle:before {
+    content: "\f058";
+    position: absolute;
+    top: 42px;
+}
